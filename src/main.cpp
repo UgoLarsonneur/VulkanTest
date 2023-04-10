@@ -792,7 +792,7 @@ private:
 
         return requiredExtensions.empty();
     }
-
+    
     QueueFamilyIndices findQueueFamilies(VkPhysicalDevice device) {
         QueueFamilyIndices indices;
 
